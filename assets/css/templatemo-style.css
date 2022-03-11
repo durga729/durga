@@ -128,7 +128,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #ff393a;
+    color: #3e89fc;
 }
 
 /* Sidebar Menu */
@@ -180,7 +180,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #ff393a;
+    color: #3e89fc;
 }
 
 .menu .copyright-text {
@@ -225,7 +225,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color:#ff3939ad;
+  background-color:#3e89fc;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -374,21 +374,25 @@ button:hover {
 .left-image img,
 .right-image img {
     border-radius: 5px;
+    margin-top: -60px;
 }
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
-.right-image-post p,
 .left-image-post p {
+    margin-top: -55px;
+}
+
+.right-image-post p {
     margin-top: 20px;
 }
 
 .right-image-post .white-button,
 .left-image-post .white-button {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -632,52 +636,7 @@ figure.snip1321.hover:after {
 }
 
 
-/* Contact Me */
 
-section.contact-me {
-    border-bottom: none;
-}
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact {
-    text-align: center;
-}
 
 @media screen and (max-width: 1680px) {
     .menu {
